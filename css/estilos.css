@@ -159,7 +159,7 @@ main .modulo1,
 
 /* portfolio */
 
-header .listagem-redes-sociais2 {
+/* header .listagem-redes-sociais2 {
     display: flex;
     flex-wrap: wrap;
     gap: 8rem;
@@ -197,4 +197,4 @@ main .video01 {
 
 iframe {
     margin-left: 2rem;
-}
+} */
