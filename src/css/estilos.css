@@ -161,3 +161,11 @@ main .modulo1,
 .modulo03 {
     background-color: rgb(184, 75, 11);
 }
+
+footer{
+    margin-left: 2rem;
+    padding: 2rem;
+}
+.footer{
+    color: blue;
+}
