@@ -52,6 +52,10 @@ header .botao-facebook:hover,
     transform: scale(1.05);
 }
 
+header nav {
+    font-size: 1.5rem;
+}
+
 
 main .listagem-videos {
     display: flex;

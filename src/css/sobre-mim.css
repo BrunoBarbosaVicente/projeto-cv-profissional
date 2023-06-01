@@ -1,0 +1,15 @@
+* {
+    margin: none;
+    padding: none;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    font-size: 12rem;
+    text-transform: uppercase;
+    text-align: center;
+}

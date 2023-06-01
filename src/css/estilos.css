@@ -52,6 +52,10 @@ header .botao-facebook:hover,
     transform: scale(1.05);
 }
 
+header nav {
+    font-size: 1.5rem;
+}
+
 h1 {
     font-size: 4rem;
     text-align: center;
@@ -143,7 +147,7 @@ main .modulo1,
 .modulo6,
 .modulo7,
 .modulo8 {
-    background-color: rgb(15, 197, 197);
+    background-color: rgb(140, 150, 150);
 }
 
 .modulo01 {
@@ -157,5 +161,3 @@ main .modulo1,
 .modulo03 {
     background-color: rgb(184, 75, 11);
 }
-
-
