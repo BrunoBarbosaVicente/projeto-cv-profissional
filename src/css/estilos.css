@@ -55,6 +55,7 @@ header .botao-facebook:hover,
 h1 {
     font-size: 4rem;
     text-align: center;
+    margin-top: -4rem;
 }
 
 
@@ -157,44 +158,4 @@ main .modulo1,
     background-color: rgb(184, 75, 11);
 }
 
-/* portfolio */
 
-/* header .listagem-redes-sociais2 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8rem;
-    align-items: top;
-}
-
-header .portfolio {
-    max-width: 10rem;
-    margin-left: 1.4rem;
-}
-
-
-main .listagem-videos{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    align-items: center;
-}
-
-main h4{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 1rem;
-    margin-bottom: -0.2rem;
-    margin-left: 1rem;
-
-}
-main .video01 {
- align-items: center;
- padding: 2rem;
- margin-right: 5rem;
-
-}
-
-iframe {
-    margin-left: 2rem;
-} */
