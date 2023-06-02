@@ -26,7 +26,7 @@ header .listagem-redes-sociais2 {
 }
 
 header .portfolio {
-    max-width: 10rem;
+    max-width: 30rem;
     margin-left: 1.4rem;
 }
 
@@ -78,10 +78,15 @@ main h4 {
     margin-top: -2rem;
     margin-bottom: -0.2rem;
     margin-left: 1rem;
-
 }
 
-
+main h5 {
+    color: rgb(58, 42, 165);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: -0.2rem;
+    margin-left: 1rem;
+}
 
 main .video01 {
     align-items: center;

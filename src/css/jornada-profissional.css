@@ -4,8 +4,54 @@
     box-sizing: content-box;
 }
 
-body{
-    background-color: antiquewhite;
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    background-color: rgb(151, 149, 147);
+}
+
+header .listagem-redes-sociais2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    align-items: top;
+}
+
+header .jornada-profissional {
+    max-width: 25rem;
+    margin-left: 1.4rem;
+}
+
+header {
+    display: flex;
+    gap: 14rem;
+    justify-content: space-around;
+    padding: 2.5rem;
+}
+
+header .botao-facebook,
+.botao-github,
+.botao-instagram,
+.botao-linkedin {
+    max-width: 4rem;
+    transition: 0, 2s ease-in-out;
+}
+
+header .botao-facebook:hover,
+.botao-github:hover,
+.botao-instagram:hover,
+.botao-linkedin:hover {
+    transform: scale(1.05);
+}
+
+header nav {
+    font-size: 1.5rem;
 }
 
 h1{
