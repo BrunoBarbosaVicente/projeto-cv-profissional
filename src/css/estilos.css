@@ -128,7 +128,7 @@ main .cartao-de-ensino,
 
 main .descricao {
     max-height: 5rem;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 main .cartao-de-ensino:hover {
@@ -180,6 +180,11 @@ main .modulo03 {
 
 .footer{
     color: blue;
+}
+
+.semestre{
+    background-color: orange;
+    color: darkred;
 }
 
  .listagem-redes-sociais {
