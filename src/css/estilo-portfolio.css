@@ -18,15 +18,12 @@ body {
     background-color: rgb(151, 149, 147);
 }
 
-header .listagem-redes-sociais2 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8rem;
-    align-items: top;
+.perfil{
+    margin-left: 15rem;
 }
 
 header .portfolio {
-    max-width: 30rem;
+    max-width: 20rem;
     margin-left: 1.4rem;
 }
 
@@ -37,25 +34,29 @@ header {
     padding: 2.5rem;
 }
 
-header .botao-facebook,
-.botao-github,
-.botao-instagram,
-.botao-linkedin {
-    max-width: 4rem;
-    transition: 0, 2s ease-in-out;
-}
-
-header .botao-facebook:hover,
-.botao-github:hover,
-.botao-instagram:hover,
-.botao-linkedin:hover {
-    transform: scale(1.05);
-}
-
-header nav {
+header .navegacao  {
     font-size: 1.5rem;
+    display: flex;
+    margin-right: 3rem;
 }
 
+header .nav{
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(60, 97, 184);
+}
 
 main .listagem-videos {
     display: flex;
@@ -97,4 +98,38 @@ main .video01 {
 
 iframe {
     margin-left: 2rem;
+}
+
+.botao-facebook,
+.botao-github,
+.botao-instagram,
+.botao-linkedin {
+    max-width: 4rem;
+    transition: 0, 2s ease-in-out;
+}
+
+.botao-facebook:hover,
+.botao-github:hover,
+.botao-instagram:hover,
+.botao-linkedin:hover {
+    transform: scale(1.05);
+}
+
+.listagem-redes-sociais {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    align-items: top;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.footer {
+    color: blue;
+}
+
+footer{
+    margin-left: 2rem;
+    padding: 1rem;
+    text-align: center;
 }

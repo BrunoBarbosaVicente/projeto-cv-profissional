@@ -11,16 +11,28 @@ ul {
 body {
     font-family: "poppins", sans-serif;
     max-width: 1920px;
-    margin: 0 auto;
     text-transform: uppercase;
     background-color: rgb(151, 149, 147);
 }
 
-header .listagem-redes-sociais {
+/* header */
+
+header {
     display: flex;
-    flex-wrap: wrap;
-    gap: 8rem;
-    align-items: top;
+    gap: 14rem;
+    justify-content: space-around;
+    padding: 2.5rem;
+}
+
+
+header .perfil{
+    margin-left: 20rem;
+}
+
+header .foto-de-perfil {
+    max-width: 10rem;
+    border-radius: 100%;
+    margin-left: 1.4rem;
 }
 
 header {
@@ -30,36 +42,37 @@ header {
     padding: 2.5rem;
 }
 
-header .foto-de-perfil {
-    max-width: 10rem;
-    border-radius: 100%;
-    margin-left: 1.4rem;
-}
-
-
-header .botao-facebook,
-.botao-github,
-.botao-instagram,
-.botao-linkedin {
-    max-width: 4rem;
-    transition: 0, 2s ease-in-out;
-}
-
-header .botao-facebook:hover,
-.botao-github:hover,
-.botao-instagram:hover,
-.botao-linkedin:hover {
-    transform: scale(1.05);
-}
-
-header nav {
+header .navegacao{
     font-size: 1.5rem;
+    display: flex;
+    margin-right: 6rem;
 }
 
-h1 {
-    font-size: 4rem;
+header .nav{
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(60, 97, 184);
+}
+
+/* main */
+
+h4 {
+    font-size: 3rem;
     text-align: center;
-    margin-top: -4rem;
+    margin-top: -1rem;
+    margin-bottom: -0.5rem;
 }
 
 
@@ -73,10 +86,9 @@ main .listagem-de-ensino {
 
 main .cartao-de-ensino,
 .informacoes {
-    background-color: rgb(111, 112, 113);
+    background-color: rgb(132, 133, 133);
     max-width: 15rem;
     padding: 1.5rem;
-    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
@@ -124,6 +136,7 @@ main .cartao-de-ensino:hover {
     transition: 0.2s ease-in-out;
 }
 
+
 main .modulo1,
 .modulo2,
 .modulo3,
@@ -139,7 +152,7 @@ main .modulo1,
     border-radius: 10px;
 }
 
-.modulo1,
+main .modulo1,
 .modulo2,
 .modulo3,
 .modulo4,
@@ -150,22 +163,52 @@ main .modulo1,
     background-color: rgb(140, 150, 150);
 }
 
-.modulo01 {
+main .modulo01 {
     background-color: rgb(3, 185, 3);
 }
 
-.modulo02 {
+main .modulo02 {
     background-color: darkgoldenrod;
 }
 
-.modulo03 {
+main .modulo03 {
     background-color: rgb(184, 75, 11);
+}
+
+
+/* footer */
+
+.footer{
+    color: blue;
+}
+
+ .listagem-redes-sociais {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.botao-facebook,
+.botao-github,
+.botao-instagram,
+.botao-linkedin {
+    max-width: 4rem;
+    transition: 0, 2s ease-in-out;
+    
+}
+
+.botao-facebook:hover,
+.botao-github:hover,
+.botao-instagram:hover,
+.botao-linkedin:hover {
+    transform: scale(1.05);
+    
 }
 
 footer{
     margin-left: 2rem;
-    padding: 2rem;
-}
-.footer{
-    color: blue;
+    padding: 1rem;
+    text-align: center;
 }

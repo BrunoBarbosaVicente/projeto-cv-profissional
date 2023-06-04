@@ -16,16 +16,28 @@ body {
     background-color: rgb(151, 149, 147);
 }
 
-header .listagem-redes-sociais {
+header .navegacao{
+    font-size: 1.5rem;
     display: flex;
-    flex-wrap: wrap;
-    gap: 8rem;
-    align-items: top;
+    margin-left: 3rem;
 }
 
-header .jornada-profissional {
-    max-width: 25rem;
-    margin-left: 1.4rem;
+header .nav{
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(60, 97, 184);
 }
 
 header {
@@ -35,7 +47,21 @@ header {
     padding: 2.5rem;
 }
 
-header .botao-facebook,
+h1{
+    font-size: 11rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.listagem-redes-sociais {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-facebook,
 .botao-github,
 .botao-instagram,
 .botao-linkedin {
@@ -43,19 +69,20 @@ header .botao-facebook,
     transition: 0, 2s ease-in-out;
 }
 
-header .botao-facebook:hover,
+
+.botao-facebook:hover,
 .botao-github:hover,
 .botao-instagram:hover,
 .botao-linkedin:hover {
     transform: scale(1.05);
 }
 
-header nav {
-    font-size: 1.5rem;
+.footer{
+    color: blue;
 }
 
-h1{
-    font-size: 11rem;
-    text-transform: uppercase;
+footer{
+    margin-left: 3rem;
+    padding: 1rem;
     text-align: center;
 }

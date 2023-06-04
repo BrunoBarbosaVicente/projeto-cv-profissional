@@ -16,17 +16,7 @@ body {
     background-color: rgb(151, 149, 147);
 }
 
-header .listagem-redes-sociais2 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8rem;
-    align-items: top;
-}
-
-header .jornada-profissional {
-    max-width: 25rem;
-    margin-left: 1.4rem;
-}
+/* header */
 
 header {
     display: flex;
@@ -35,27 +25,78 @@ header {
     padding: 2.5rem;
 }
 
-header .botao-facebook,
+.perfil{
+    margin-left: 15rem;
+}
+
+header .jornada-profissional-png {
+    max-width: 20rem;
+    margin-left: 1.4rem;
+    align-items: top;
+}
+
+header .navegacao  {
+    font-size: 1.5rem;
+    display: flex;
+    margin-right: 3rem;
+}
+
+header .nav{
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: rgb(60,97,184);
+}
+
+h1{
+    font-size: 11rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* footer */
+
+.footer{
+    color: blue;
+}
+
+ .listagem-redes-sociais {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.botao-facebook,
 .botao-github,
 .botao-instagram,
 .botao-linkedin {
     max-width: 4rem;
     transition: 0, 2s ease-in-out;
+    
 }
 
-header .botao-facebook:hover,
+.botao-facebook:hover,
 .botao-github:hover,
 .botao-instagram:hover,
 .botao-linkedin:hover {
     transform: scale(1.05);
 }
 
-header nav {
-    font-size: 1.5rem;
-}
-
-h1{
-    font-size: 11rem;
-    text-transform: uppercase;
+footer{
+    margin-left: 2rem;
+    padding: 1rem;
     text-align: center;
 }
