@@ -84,8 +84,8 @@ main .listagem-de-ensino {
 
 }
 
-main .cartao-de-ensino,
-.informacoes {
+main .cartao-de-ensino
+ {
     background-color: rgb(132, 133, 133);
     max-width: 15rem;
     padding: 1.5rem;
@@ -94,7 +94,18 @@ main .cartao-de-ensino,
     gap: 1.5rem;
     border-radius: 1rem 3rem;
     transition: 0.2s ease-in-out;
-    border: 0.1rem solid #050505;
+    border: 0.1rem solid #000000;
+}
+
+main .informacoes{
+    background-color: rgb(112, 119, 138);
+    border-radius: 1rem 3rem;
+    border: 0.1rem solid rgb(5, 5, 5)
+}
+
+main .modulo1,.modulo01,.modulo02,.modulo03{
+    border: 0.1rem solid black;
+    border-radius: 3rem 1rem;
 }
 
 main .cartao-de-ensino,
@@ -121,7 +132,7 @@ main .cartao-de-ensino,
     padding: 1rem;
     display: flex;
     gap: 1.5rem;
-    border-radius: 1rem;
+    
 }
 
 main .descricao {
@@ -140,7 +151,6 @@ main .modulo1,
 .modulo02,
 .modulo03 {
     padding: 1rem;
-    border-radius: 3rem 1rem;
 }
 
 main .modulo1 {
