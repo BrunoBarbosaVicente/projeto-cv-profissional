@@ -12,7 +12,7 @@ body {
     font-family: "poppins", sans-serif;
     max-width: 1920px;
     text-transform: uppercase;
-    background-color: rgb(151, 149, 147);
+    background-color: rgb(241, 237, 234);
 }
 
 /* header */
@@ -25,7 +25,7 @@ header {
 }
 
 
-header .perfil{
+header .perfil {
     margin-left: 20rem;
 }
 
@@ -42,13 +42,13 @@ header {
     padding: 2.5rem;
 }
 
-header .navegacao{
+header .navegacao {
     font-size: 1.5rem;
     display: flex;
     margin-right: 6rem;
 }
 
-header .nav{
+header .nav {
     margin-left: 3rem;
     margin-top: 1rem;
 }
@@ -84,9 +84,10 @@ main .listagem-de-ensino {
 
 }
 
-main .cartao-de-ensino
- {
-    background-color: rgb(132, 133, 133);
+main .cartao-de-ensino {
+    align-items: center;
+    text-align: center;
+    background-color: rgb(203, 210, 210);
     max-width: 15rem;
     padding: 1.5rem;
     flex-direction: column;
@@ -97,45 +98,59 @@ main .cartao-de-ensino
     border: 0.1rem solid #000000;
 }
 
-main .informacoes{
-    background-color: rgb(112, 119, 138);
+main .informacoes {
+    background-color: rgb(174, 179, 192);
     border-radius: 1rem 3rem;
     border: 0.1rem solid rgb(5, 5, 5)
 }
 
-main .modulo1,.modulo01,.modulo02,.modulo03{
-    border: 0.1rem solid black;
-    border-radius: 3rem 1rem;
+.situacao{
+    margin-right: 2.5rem;
 }
 
-main .cartao-de-ensino,
-.png {
+.modulos{
+    justify-content: center;
+    align-items: center;
+}
+
+.modulo,
+.concluido,
+.cursando,
+.aguardando {
+    padding: 0.4rem;
+    border: 0.1rem solid black;
+    border-radius: 2rem 1rem;
+}
+
+main .cartao-de-ensino{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 0.4rem;
     max-width: 40rem;
 }
 
-main .cartao-de-ensino,
-.informacoes,
-.modulos,
-.modulo01,
-.modulo02 {
+main .png {
     padding: 0.5rem;
-    text-transform: uppercase;
-    align-items: center;
-    text-align: center;
+    max-width: 40rem;
 }
 
-main .cartao-de-ensino,
-.modulos,
-.modulo01,
-.modulo02,
-.modulo03 {
-    padding: 1rem;
+main 
+.informacoes {
+    padding:0.4rem;
+    text-transform: uppercase;
+}
+
+main
+.modulos{
     display: flex;
-    gap: 1.5rem;
-    
+    gap: 1rem;
+    margin-right: 1.5rem;
 }
 
 main .descricao {
+    text-align: center;
+    align-items: center;
     max-height: 12rem;
     overflow-y: auto;
 }
@@ -146,41 +161,34 @@ main .cartao-de-ensino:hover {
 }
 
 
-main .modulo1,
-.modulo01,
-.modulo02,
-.modulo03 {
-    padding: 1rem;
+main .modulo {
+    background-color: rgb(184, 191, 191);
 }
 
-main .modulo1 {
-    background-color: rgb(140, 150, 150);
+main .concluido {
+    background-color: rgb(128, 235, 128);
 }
 
-main .modulo01 {
-    background-color: rgb(3, 185, 3);
+main .cursando {
+    background-color: rgb(231, 201, 126);
 }
 
-main .modulo02 {
-    background-color: darkgoldenrod;
-}
-
-main .modulo03 {
-    background-color: rgb(184, 75, 11);
+main .aguardando {
+    background-color: rgb(241, 115, 115);
 }
 
 
 /* footer */
 
-.footer{
-    color: blue;
+.footer {
+    color: rgb(255, 0, 0);
 }
 
-.semestre{
-    background-color: orange;
+.semestre {
+    background-color: rgb(227, 241, 122);
 }
 
- .listagem-redes-sociais {
+.listagem-redes-sociais {
     display: flex;
     flex-wrap: wrap;
     gap: 8rem;
@@ -194,7 +202,7 @@ main .modulo03 {
 .botao-linkedin {
     max-width: 4rem;
     transition: 0, 2s ease-in-out;
-    
+
 }
 
 .botao-facebook:hover,
@@ -202,10 +210,10 @@ main .modulo03 {
 .botao-instagram:hover,
 .botao-linkedin:hover {
     transform: scale(1.05);
-    
+
 }
 
-footer{
+footer {
     margin-left: 2rem;
     padding: 1rem;
     text-align: center;

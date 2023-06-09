@@ -15,8 +15,14 @@ body {
     max-width: 1920px;
     margin: 0 auto;
     text-transform: uppercase;
-    background-color: rgb(151, 149, 147);
+    background-color: rgb(255, 255, 255);
 }
+
+body .modo-escuro{
+    background-color: #212121;
+    color: #fdfcfc;
+}
+
 
 .perfil{
     margin-left: 15rem;
@@ -45,17 +51,19 @@ header .nav{
     margin-top: 1.5rem;
 }
 
-a {
+a, a:visited {
     color: black;
     text-decoration: none;
 }
 
-a:visited {
-    color: black;
-}
-
 a:hover {
     color: rgb(60, 97, 184);
+}
+
+header .lua{
+    max-width: 3rem;
+    margin-top: 1rem;
+    margin-left: 10rem;
 }
 
 main .listagem-videos {
@@ -98,12 +106,14 @@ main .video01 {
 
 iframe {
     margin-left: 2rem;
+    border-radius: 1rem 3rem;
 }
 
 .botao-facebook,
 .botao-github,
 .botao-instagram,
-.botao-linkedin {
+.botao-linkedin,
+.lua {
     max-width: 4rem;
     transition: 0, 2s ease-in-out;
 }
@@ -111,7 +121,8 @@ iframe {
 .botao-facebook:hover,
 .botao-github:hover,
 .botao-instagram:hover,
-.botao-linkedin:hover {
+.botao-linkedin:hover,
+.lua:hover {
     transform: scale(1.05);
 }
 
@@ -125,7 +136,7 @@ iframe {
 }
 
 .footer {
-    color: blue;
+    color: rgb(255, 0, 0);
 }
 
 footer{
