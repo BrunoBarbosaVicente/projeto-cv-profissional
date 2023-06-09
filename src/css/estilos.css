@@ -12,7 +12,7 @@ body {
     font-family: "poppins", sans-serif;
     max-width: 1920px;
     text-transform: uppercase;
-    background-color: rgb(241, 237, 234);
+    background-color: rgb(255, 255, 255);
 }
 
 /* header */
@@ -87,7 +87,7 @@ main .listagem-de-ensino {
 main .cartao-de-ensino {
     align-items: center;
     text-align: center;
-    background-color: rgb(203, 210, 210);
+    background-color: rgb(220, 221, 221);
     max-width: 15rem;
     padding: 1.5rem;
     flex-direction: column;
