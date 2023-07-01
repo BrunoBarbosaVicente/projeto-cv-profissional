@@ -55,9 +55,40 @@ header {
 }
 
 h1{
-    font-size: 11rem;
+    font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
+    margin-top: -0.1rem;
+    color: rgb(41, 167, 167);
+}
+
+.imagem {
+    max-width: 30rem;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+    border: solid black 0.1rem;
+}
+
+.imagem-perfil {
+    text-align: center;
+}
+
+.descricao {
+    text-align: center;
+    margin: 0 7rem 0 7rem ;
+}
+
+.formacao {
+    color: rgb(65, 222, 141);
+}
+
+.informacoes {
+    text-align: center;
+    margin:3rem 0 4rem 0;
+}
+
+.color {
+    color: rgb(16, 16, 185);
 }
 
 .listagem-redes-sociais {
@@ -73,7 +104,7 @@ h1{
 .botao-instagram,
 .botao-linkedin {
     max-width: 4rem;
-    transition: 0, 2s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 

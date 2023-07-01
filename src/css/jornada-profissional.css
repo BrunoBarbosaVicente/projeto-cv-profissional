@@ -65,9 +65,22 @@ header .lua{
 }
 
 h1{
-    font-size: 11rem;
+    font-size: 5rem;
     text-transform: uppercase;
     text-align: center;
+}
+main {
+    text-align: center;
+}
+
+.xp {
+    border: solid black 0.1rem;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+span {
+    color: blue;
 }
 
 /* footer */
