@@ -18,13 +18,13 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-body .modo-escuro{
+body .modo-escuro {
     background-color: #212121;
     color: #fdfcfc;
 }
 
 
-.perfil{
+.perfil {
     margin-left: 15rem;
 }
 
@@ -40,18 +40,19 @@ header {
     padding: 2.5rem;
 }
 
-header .navegacao  {
+header .navegacao {
     font-size: 1.5rem;
     display: flex;
     margin-right: 3rem;
 }
 
-header .nav{
+header .nav {
     margin-right: 3rem;
     margin-top: 1.5rem;
 }
 
-a, a:visited {
+a,
+a:visited {
     color: black;
     text-decoration: none;
 }
@@ -60,7 +61,7 @@ a:hover {
     color: rgb(60, 97, 184);
 }
 
-header .lua{
+header .lua {
     max-width: 3rem;
     margin-top: 1rem;
     margin-left: 10rem;
@@ -72,15 +73,12 @@ header .lua{
     justify-content: center;
 }
 
-
-.descricao{
-   margin-top: -4.5rem;
+.descricao {
+    margin-top: -4.5rem;
 }
 
-
-
 .button-code,
-.button-projeto{
+.button-projeto {
     /* background: #e64f4f; */
     border: 0.1rem solid black;
     border-radius: 1rem;
@@ -89,22 +87,22 @@ header .lua{
     font-size: 1rem;
 }
 
-.historia{
+.historia {
     max-width: 25rem;
     margin-left: 5.5rem;
 }
 
 .button-code:hover,
-.button-projeto:hover{
+.button-projeto:hover {
     transform: scale(1.05);
     transition: 0.2s ease-in-out;
 }
 
-.button-code{
+.button-code {
     background-color: rgb(141, 141, 243);
 }
 
-.button-projeto{
+.button-projeto {
     background-color: rgb(209, 88, 88);
 }
 
@@ -135,12 +133,7 @@ main h5 {
 main .video {
     align-items: center;
     padding: 5rem;
-    /* margin-right: 5rem; */
 }
-
-
-
-
 
 iframe {
     margin-left: rem;
@@ -177,7 +170,7 @@ iframe {
     color: rgb(255, 0, 0);
 }
 
-footer{
+footer {
     margin-left: 2rem;
     padding: 1rem;
     text-align: center;

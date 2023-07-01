@@ -21,41 +21,24 @@ body .modo-escuro{
     color: #fdfcfc;
 }
 
-header {
-    display: flex;
-    gap: 14rem;
-    justify-content: space-around;
-    padding: 2.5rem;
-}
-
-.perfil{
-    margin-left: 15rem;
-}
-
-header .jornada-profissional-png {
-    max-width: 20rem;
-    margin-left: 1.4rem;
-    align-items: top;
-}
-
-header .navegacao  {
+header .navegacao{
     font-size: 1.5rem;
     display: flex;
-    margin-right: 3rem;
+    margin-left: 3rem;
 }
 
 header .nav{
-    margin-right: 3rem;
+    margin-left: 3rem;
     margin-top: 1.5rem;
 }
 
-a, a:visited{
+a, a:visited {
     color: black;
     text-decoration: none;
 }
 
-a:hover{
-    color: rgb(60,97,184);
+a:hover {
+    color: rgb(60, 97, 184);
 }
 
 header .lua{
@@ -64,46 +47,49 @@ header .lua{
     margin-left: 12rem;
 }
 
+header {
+    display: flex;
+    gap: 14rem;
+    justify-content: space-around;
+    padding: 2.5rem;
+}
+
 h1{
     font-size: 11rem;
     text-transform: uppercase;
     text-align: center;
 }
 
-/* footer */
-
-.footer{
-    color: rgb(255, 0, 0);
-}
-
- .listagem-redes-sociais {
+.listagem-redes-sociais {
     display: flex;
     flex-wrap: wrap;
     gap: 8rem;
-    margin-top: 3rem;
+    align-items: center;
     justify-content: center;
 }
 
 .botao-facebook,
 .botao-github,
 .botao-instagram,
-.botao-linkedin,
-.lua {
+.botao-linkedin {
     max-width: 4rem;
-    transition: 0.2s ease-in-out;
-    
+    transition: 0, 2s ease-in-out;
 }
+
 
 .botao-facebook:hover,
 .botao-github:hover,
 .botao-instagram:hover,
-.botao-linkedin:hover,
-.lua:hover {
+.botao-linkedin:hover {
     transform: scale(1.05);
 }
 
+.footer{
+    color: rgb(255, 0, 0);
+}
+
 footer{
-    margin-left: 2rem;
+    margin-left: 3rem;
     padding: 1rem;
     text-align: center;
 }

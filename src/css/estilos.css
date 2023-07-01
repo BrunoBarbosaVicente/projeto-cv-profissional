@@ -32,6 +32,7 @@ header .perfil {
 header .foto-de-perfil {
     max-width: 10rem;
     border-radius: 1rem 4rem;
+    border: solid black 0.2rem;
     margin-left: 1.4rem;
 }
 
@@ -116,7 +117,8 @@ main .informacoes {
 .modulo,
 .concluido,
 .cursando,
-.aguardando {
+.aguardando,
+.estudando {
     padding: 0.4rem;
     border: 0.1rem solid black;
     border-radius: 2rem 1rem;
@@ -176,6 +178,9 @@ main .cursando {
 main .aguardando {
     background-color: rgb(241, 115, 115);
 }
+main .estudando {
+    background-color: rgb(171, 236, 236);
+}
 
 
 /* footer */
@@ -201,7 +206,7 @@ main .aguardando {
 .botao-instagram,
 .botao-linkedin {
     max-width: 4rem;
-    transition: 0, 2s ease-in-out;
+    transition: 0.2s ease-in-out;
 
 }
 
