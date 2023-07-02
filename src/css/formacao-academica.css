@@ -162,6 +162,22 @@ main .cartao-de-ensino:hover {
     transition: 0.2s ease-in-out;
 }
 
+.conhecimento {
+    display: flex;
+}
+
+.html-logo,
+.css-logo
+ {
+    max-width: 4rem;
+    background: none;
+    margin: 0 1rem 0 2rem;
+}
+
+.js-logo{
+    max-width: 10rem;
+    margin: 0 0 0 -1rem;
+}
 
 main .modulo {
     background-color: rgb(184, 191, 191);
