@@ -16,23 +16,24 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-body .modo-escuro{
+body .modo-escuro {
     background-color: #212121;
     color: #fdfcfc;
 }
 
-header .navegacao{
+header .navegacao {
     font-size: 1.5rem;
     display: flex;
     margin-left: 3rem;
 }
 
-header .nav{
+header .nav {
     margin-left: 3rem;
     margin-top: 1.5rem;
 }
 
-a, a:visited {
+a,
+a:visited {
     color: black;
     text-decoration: none;
 }
@@ -41,7 +42,7 @@ a:hover {
     color: rgb(60, 97, 184);
 }
 
-header .lua{
+header .lua {
     max-width: 3rem;
     margin-top: 1rem;
     margin-left: 12rem;
@@ -54,7 +55,7 @@ header {
     padding: 2.5rem;
 }
 
-h1{
+h1 {
     font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
@@ -75,16 +76,12 @@ h1{
 
 .descricao {
     text-align: center;
-    margin: 0 7rem 0 7rem ;
-}
-
-.formacao {
-    color: rgb(65, 222, 141);
+    margin: 0 7rem 0 7rem;
 }
 
 .informacoes {
     text-align: center;
-    margin:3rem 0 4rem 0;
+    margin: 3rem 0 4rem 0;
 }
 
 .color {
@@ -115,11 +112,11 @@ h1{
     transform: scale(1.05);
 }
 
-.footer{
+.footer {
     color: rgb(255, 0, 0);
 }
 
-footer{
+footer {
     margin-left: 3rem;
     padding: 1rem;
     text-align: center;
