@@ -50,13 +50,13 @@ a:hover {
     color: rgb(60, 97, 184);
 }
 
-header .lua {
+header .imagem-botao{
     max-width: 3rem;
     margin-top: 1rem;
     margin-left: 12rem;
     
 }
-.lua {
+.imagem-botao {
     transform: scale(1.05);
     transition: 0.2s ease-in-out;
 }

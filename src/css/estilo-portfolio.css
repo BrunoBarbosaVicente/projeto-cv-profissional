@@ -18,7 +18,7 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-body .modo-escuro {
+body.modo-escuro {
     background-color: #212121;
     color: #fdfcfc;
 }
@@ -28,7 +28,7 @@ body .modo-escuro {
     margin-left: 15rem;
 }
 
-header .portfolio {
+header.portfolio {
     max-width: 20rem;
     margin-left: 1.4rem;
 }
@@ -61,10 +61,19 @@ a:hover {
     color: rgb(60, 97, 184);
 }
 
-header .lua {
+header .imagem-botao {
     max-width: 3rem;
     margin-top: 1rem;
     margin-left: 10rem;
+}
+header #botao-alterar-tema{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+imagem-botao {
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
 }
 
 .listagem-videos {
@@ -148,7 +157,7 @@ iframe {
 .botao-github,
 .botao-instagram,
 .botao-linkedin,
-.lua {
+.imagem-botao {
     max-width: 4rem;
     transition: 0.2s ease-in-out;
 }
