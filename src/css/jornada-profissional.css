@@ -16,9 +16,30 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-body .modo-escuro{
+body.modo-escuro {
     background-color: #212121;
     color: #fdfcfc;
+}
+
+header #botao-alterar-tema{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+header .imagem-botao{
+    max-width: 3rem;
+    margin-top: 1rem;
+    margin-left: 12rem;
+}
+.imagem-botao {
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+
+header .navegacao {
+    font-size: 1.5rem;
+    display: flex;
+    margin-left: 3rem;
 }
 
 header {

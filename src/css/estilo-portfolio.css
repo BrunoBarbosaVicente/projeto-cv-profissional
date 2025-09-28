@@ -17,15 +17,28 @@ body {
     text-transform: uppercase;
     background-color: rgb(255, 255, 255);
 }
+header {
+    display: flex;
+    gap: 14rem;
+    justify-content: space-around;
+    padding: 2.5rem;
+}
 
 body.modo-escuro {
     background-color: #212121;
     color: #fdfcfc;
+    a {
+        color: #fdfcfc;
+    }
 }
 
 
 .perfil {
-    margin-left: 15rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    img {
+        max-width: 15rem;
+    }
 }
 
 header.portfolio {
@@ -33,11 +46,10 @@ header.portfolio {
     margin-left: 1.4rem;
 }
 
-header {
-    display: flex;
-    gap: 14rem;
-    justify-content: space-around;
-    padding: 2.5rem;
+header .imagem-botao{
+    max-width: 3rem;
+    margin-top: 1rem;
+    margin-left: 12rem;
 }
 
 header .navegacao {

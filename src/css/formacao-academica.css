@@ -53,6 +53,21 @@ header .nav {
     margin-left: 3rem;
     margin-top: 1rem;
 }
+body.modo-escuro {
+    background-color: #212121;
+    color: #fdfcfc;
+}
+header #botao-alterar-tema{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+header .imagem-botao {
+    max-width: 3rem;
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+
 
 a {
     color: black;
