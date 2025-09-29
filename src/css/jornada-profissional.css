@@ -19,6 +19,9 @@ body {
 body.modo-escuro {
     background-color: #212121;
     color: #fdfcfc;
+    a {
+        color: #fdfcfc;
+    }
 }
 
 header #botao-alterar-tema{

@@ -19,7 +19,9 @@ body {
 }
 header {
     display: flex;
-    gap: 14rem;
+    margin-top: -1rem;
+    margin-left: -20rem;
+    margin-right: -22rem;
     justify-content: space-around;
     padding: 2.5rem;
 }
